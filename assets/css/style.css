@@ -53,9 +53,7 @@ a:hover {
   border-style: none;
   box-shadow: none; }
 
- p {
-  margin-bottom: 40px;
- }
+
 
 html {
   background-color: #1F1F1F; }
@@ -181,6 +179,9 @@ body.page-template-page-fullsingle-slice {
           color: #FFFFFF;
           transition-duration: 0.5s;
           border-bottom: 1px dotted #FFFFFF; }
+          .slice-session p {
+            margin-bottom: 43px;
+           }
 
 .slice-lists .slice-list {
   width: 100%;
