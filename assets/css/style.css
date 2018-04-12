@@ -90,7 +90,7 @@ body.page-template-page-fullsingle-slice {
     background-size: cover; }
     @media (max-width: 800px) {
       .fs-slice .slice-image {
-        height: 80vh;
+        height: 100vh;
         width: 100%; } }
   .fs-slice .slice-content {
     width: 50%;
