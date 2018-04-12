@@ -112,7 +112,7 @@ body.page-template-page-fullsingle-slice {
     .fs-slice .slice-content .slice-content-vertically-center {
       padding: 80px;
       max-width: 640px;
-      margin-top: auto;
+      margin-top: 0;
       margin-bottom: auto; }
       @media (max-width: 1200px) {
         .fs-slice .slice-content .slice-content-vertically-center {
@@ -200,6 +200,24 @@ body.page-template-page-fullsingle-slice {
     .slice-credit p a {
       color: #FFFFFF; }
 
-  h1 img {
+      .slice-image img {
+        display: none;
+    }
+
+      .slice-intro img {
     width: 75%;
+}
+
+@media (max-width: 800px) {
+
+.slice-intro img {
+    display: none;
+}
+
+.slice-image img {
+  width: 75%;
+  display: block;
+  margin: 50px auto 0 auto;
+}
+
 }
