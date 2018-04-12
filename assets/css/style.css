@@ -181,7 +181,7 @@ body.page-template-page-fullsingle-slice {
           transition-duration: 0.5s;
           border-bottom: 1px dotted #FFFFFF; }
           .slice-session p {
-            margin-bottom: 43px;
+            margin-bottom: 43px !important;
            }
 
 .slice-lists .slice-list {
