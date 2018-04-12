@@ -145,11 +145,11 @@ body.page-template-page-fullsingle-slice {
   }
 
 .slice-bio {
-  padding: 40px 0 0 0;
+  padding: 40px 0 20px 0;
   font-family: 'Lora', serif; }
   @media (max-width: 1200px) {
     .slice-bio {
-      padding: 40px 0; } }
+      padding: 40px 0 20px 0; } }
   @media (max-width: 800px) {
     .slice-bio {
       padding: 20px 0; } }
