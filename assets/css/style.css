@@ -69,7 +69,8 @@ body.page-template-page-fullsingle-slice {
   -webkit-animation: fadein 2s;
           animation: fadein 2s; }
   body.page-template-page-fullsingle-slice p {
-    color: #FFFFFF; }
+    color: #FFFFFF; 
+  margin-bottom: 20px;}
 
 .fs-slice {
   width: 100vw;
