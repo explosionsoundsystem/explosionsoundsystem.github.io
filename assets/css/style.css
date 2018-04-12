@@ -115,7 +115,9 @@ body.page-template-page-fullsingle-slice {
       padding: 80px;
       max-width: 640px;
       margin-top: 0;
-      margin-bottom: auto; }
+      margin-bottom: auto; 
+      overflow-x: hidden;
+    }
       @media (max-width: 1200px) {
         .fs-slice .slice-content .slice-content-vertically-center {
           padding: 60px; } }
