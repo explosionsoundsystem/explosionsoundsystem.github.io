@@ -86,7 +86,7 @@ body.page-template-page-fullsingle-slice {
   .fs-slice .slice-image {
     width: 50%;
     height: 100vh;
-    background-image: url("../../images/background.jpg");
+    background-image: url("../../images/background-01.jpg");
     background-position: center center;
     background-size: cover; }
     @media (max-width: 800px) {
