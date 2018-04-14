@@ -175,6 +175,7 @@ body.page-template-page-fullsingle-slice p {
   display: table;
 }
 
+
 @media (max-width: 800px) {
   .fs-slice .slice-image {
     height: 100vh;
