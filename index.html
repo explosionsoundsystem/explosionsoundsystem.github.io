@@ -47,84 +47,91 @@
 
 </head>
 
-<body id="fullsingle" class="page-template-page-fullsingle-slice">
+<body id="fullsingle" class="page-template-page-fullsingle-slice" onload="randombg()">
 
 	<div class="fs-slice">
-
 		<!-- Image Side -->
-		<div class="slice-image">
+		<h1 class="mobile-logo">
+			<img src="images/explosion-logo.png" alt="Explosion Soundsystem Logo" title="Explosion Soundsystem" />
+		</h1>
+
+		<div class="slice-image animated fadeIn" id="random">
+
+		</div>
+		<div class="slice-intro">
+
 			<h1>
 				<img src="images/explosion-logo.png" alt="Explosion Soundsystem Logo" title="Explosion Soundsystem" />
 			</h1>
-		</div>
 
+		</div>
 		<!-- Content Side -->
 		<div class="slice-content">
 
-			<div class="slice-content-vertically-center">
+			<div class="slice-content-vertically-center animated fadeIn">
 
-				<div class="slice-intro">
 
-					<h1>
-						<img src="images/explosion-logo.png" alt="Explosion Soundsystem Logo" title="Explosion Soundsystem" />
-					</h1>
 
-					<span class="tagline">Heavyweight Reggae, Roots &amp; Dub from Belfast City</span>
+				<div class="slice-bio animated slideInLeft">
 
-				</div>
-
-				<div class="slice-bio">
-
-					<p>Northern Ireland’s original heavyweight soundsystem. Promoting Jamaican music and soundsystem culture since 2002.</p>
-
-				</div>
-				<div class="slice-session">
-					<h3>Next Session:</h3>
-					<p>Friday 4th May at The Menagerie in Belfast -
-						<a target="_blank" href="//en-gb.facebook.com/events/1847545255543559/">Click here for more info</a>
-					</p>
-
-				</div>
-				<div class="slice-lists">
-
-					<div class="slice-list">
-						<h3>Contact &amp; Find Us:</h3>
-						<ul>
-							<li>
-								<a target="_blank" href="javascript:location='mailto:\u0065\u0078\u0070\u006c\u006f\u0073\u0069\u006f\u006e\u0073\u006f\u0075\u006e\u0064\u0073\u0079\u0073\u0074\u0065\u006d\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0">Email</a>
-							</li>
-							<li>
-								<a target="_blank" href="https://www.facebook.com/explosionsoundsystem">Facebook</a>
-							</li>
-							<li>
-								<a target="_blank" href="https://www.instagram.com/explosionsoundsystem">Instagram</a>
-							</li>
-							<li>
-								<a target="_blank" href="https://twitter.com/explosion_sound">Twitter</a>
-							</li>
-							<li>
-								<a target="_blank" href="https://www.mixcloud.com/explosionsoundsystem">Mixcloud</a>
-							</li>
-						</ul>
-
-					</div>
-
-				</div>
-
-				<div class="slice-credit">
-
-					<p>&copy;2018 Explosion Soundsystem</p>
+					<h2>Northern Ireland’s original heavyweight soundsystem.</h2>
+					<br/>
+					<br/>
+					<h2>Promoting Jamaican music and soundsystem culture since 2002.</h2>
 
 				</div>
 
 			</div>
 
 		</div>
+		<div class="slice-details animated fadeIn">
+			<div class="slice-session animated slideInDown">
+				<h3>Next Session:</h3>
+				<p>Friday 4th May at The Menagerie in Belfast -
+					<a target="_blank" href="//en-gb.facebook.com/events/1847545255543559/">Click here for more info</a>
+				</p>
 
+			</div>
+			<div class="slice-lists animated slideInDown">
+
+				<div class="slice-list">
+					<h3>Contact &amp; Find Us:</h3>
+					<ul>
+						<li>
+							<a target="_blank" href="javascript:location='mailto:\u0065\u0078\u0070\u006c\u006f\u0073\u0069\u006f\u006e\u0073\u006f\u0075\u006e\u0064\u0073\u0079\u0073\u0074\u0065\u006d\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0">Email</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.facebook.com/explosionsoundsystem">Facebook</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.instagram.com/explosionsoundsystem">Instagram</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://twitter.com/explosion_sound">Twitter</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.mixcloud.com/explosionsoundsystem">Mixcloud</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
 	</div>
 
 
-
+<script>
+	function randombg(){
+  var random= Math.floor(Math.random() * 5) + 0;
+  var bigSize = ["url('images/background-01.jpg')",
+                 "url('images/background-02.jpg')",
+                 "url('images/background-03.jpg')",
+                 "url('images/background-04.jpg')",
+                 "url('images/background-05.jpg')"];
+  document.getElementById("random").style.backgroundImage=bigSize[random];
+}
+</script>
 
 
 
