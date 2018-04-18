@@ -288,7 +288,7 @@ body.page-template-page-fullsingle-slice p {
 
 @media (max-width: 800px) {
   .fs-slice .slice-content .slice-content-vertically-center {
-    padding: 40px;
+    padding: 0px 40px 0px 40px;
     position: inherit;
     max-width: 800px;
     min-width: 320px;
@@ -368,7 +368,9 @@ body.page-template-page-fullsingle-slice p {
   position: initial;
   bottom: inherit;
   left: inherit;
-  padding: 10px 40px;
+  padding: 40px 40px;
+  width: 100%;
+  background-color: #004950;
 }
 }
 
