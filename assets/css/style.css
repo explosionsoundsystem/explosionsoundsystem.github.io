@@ -213,6 +213,7 @@ body.page-template-page-fullsingle-slice p {
   width: 100%;
   height: 100%;
   display: block;
+  position: absolute;
 }
 
 
